@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería - Tessitura Arquitectos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Barra de Navegación -->
+    <header class="navbar">
+      <div class="container" style="display: flex; align-items: center">
+        <div class="logo">
+          <img
+            src="./imgs/tessitura.jpeg"
+            alt="Logo de Tessitura Arquitectos"
+            class="logo-img"
+          />
+        </div>
+        <nav class="main-nav">
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <ul class="menu">
+            <li><a href="index.html#body">Inicio</a></li>
+            <li><a href="index.html#about-us">Nosotros</a></li>
+            <li><a href="index.html#servicios">Servicios</a></li>
+            <li><a href="index.html#proyectos">Proyectos</a></li>
+            <li><a href="index.html#contacto">Contacto</a></li>
+            <li><a href="galeria.html" class="active">Galería</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Sección de Galería -->
+    <section class="gallery-section">
+      <div class="gallery-header reveal-element">
+        <h1>Nuestra Galería de Proyectos</h1>
+        <p>Descubre nuestros trabajos más destacados</p>
+      </div>
+
+      <div class="gallery-container">
+        <!-- Tarjeta 1 -->
+        <div class="gallery-card reveal-element">
+          <div class="card-image">
+            <img
+              src="imgs/edificio-corporativo.png"
+              alt="Proyecto Residencial"
+            />
+            <div class="project-overlay">
+              <span>Ver detalles</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Edificio Corporativo</h3>
+            <p>
+              Desarrollo arquitectónico enfocado en la eficiencia operativa y la
+              imagen institucional. Combina diseño contemporáneo con soluciones
+              inteligentes de automatización y ahorro energético.
+            </p>
+            <p class="card-details">
+              <i class="fas fa-map-marker-alt"></i> Monterrey, Nuevo León<br />
+              <i class="fas fa-ruler-combined"></i> Área: 3,200 m²<br />
+              <i class="fas fa-calendar-alt"></i> Año: 2023
+            </p>
+            <a href="#" class="btn-secondary">Ver más detalles</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="gallery-card reveal-element">
+          <div class="card-image">
+            <img src="imgs/casa-minimalista.png" alt="Proyecto Comercial" />
+            <div class="project-overlay">
+              <span>Ver detalles</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Casa Minimalista</h3>
+            <p>
+              Vivienda unifamiliar que privilegia las líneas puras, los espacios
+              abiertos y el uso de materiales naturales. Su diseño busca generar
+              una experiencia de calma, orden y conexión con el entorno.
+            </p>
+            <p class="card-details">
+              <i class="fas fa-map-marker-alt"></i> Valle de Bravo, Estado de México<br />
+              <i class="fas fa-ruler-combined"></i> Área: 280 m²<br />
+              <i class="fas fa-calendar-alt"></i> Año: 2021
+            </p>
+            <a href="#" class="btn-secondary">Ver más detalles</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="gallery-card reveal-element">
+          <div class="card-image">
+            <img src="imgs/casa-cultura.png" alt="Proyecto Corporativo" />
+            <div class="project-overlay">
+              <span>Ver detalles</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Casa Cultural</h3>
+            <p>
+              Espacio residencial que integra elementos arquitectónicos
+              tradicionales con funciones contemporáneas. Pensada como punto de
+              encuentro entre historia, arte y vida cotidiana.
+            </p>
+            <p class="card-details">
+              <i class="fas fa-map-marker-alt"></i> Oaxaca de Juárez, Oaxaca<br />
+              <i class="fas fa-ruler-combined"></i> Área: 360 m²<br />
+              <i class="fas fa-calendar-alt"></i> Año: 2022
+            </p>
+            <a href="#" class="btn-secondary">Ver más detalles</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 4 -->
+        <div class="gallery-card reveal-element">
+          <div class="card-image">
+            <img src="imgs/residencia-moderna.png" alt="Proyecto Hotelero" />
+            <div class="project-overlay">
+              <span>Ver detalles</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Residencia Moderna</h3>
+            <p>
+              Proyecto de intervención arquitectónica en un edificio existente,
+              orientado a reconfigurar espacios para la salud, el bienestar y la
+              comunidad. Enfatiza el uso de materiales reciclados y diseño
+              biofílico.
+            </p>
+            <p class="card-details">
+              <i class="fas fa-map-marker-alt"></i> Guadalajara, Jalisco<br />
+              <i class="fas fa-ruler-combined"></i> Área: 1,150 m²<br />
+              <i class="fas fa-calendar-alt"></i> Año: 2024
+            </p>
+            <a href="#" class="btn-secondary">Ver más detalles</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 5 -->
+        <div class="gallery-card reveal-element">
+          <div class="card-image">
+            <img src="imgs/renovacion-humana.png" alt="Proyecto Residencial" />
+            <div class="project-overlay">
+              <span>Ver detalles</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Renovación Humana</h3>
+            <p>
+              Proyecto residencial con enfoque en la sostenibilidad y el
+              aprovechamiento de la luz natural. Diseñado para maximizar el
+              confort y la funcionalidad.
+            </p>
+            <p class="card-details">
+              <i class="fas fa-map-marker-alt"></i> Ciudad de México<br />
+              <i class="fas fa-ruler-combined"></i> Área: 450 m²<br />
+              <i class="fas fa-calendar-alt"></i> Año: 2022
+            </p>
+            <a href="#" class="btn-secondary">Ver más detalles</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 6  -->
+        <div class="gallery-card reveal-element">
+          <div class="card-image">
+            <img src="imgs/hotel-boutique.png" alt="Proyecto Residencial" />
+            <div class="project-overlay">
+              <span>Ver detalles</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3>Hotel Boutique</h3>
+            <p>
+              Proyecto hotelero que combina elegancia y funcionalidad. Cada
+              espacio ha sido cuidadosamente diseñado para ofrecer una
+              experiencia única a los huéspedes.
+            </p>
+            <p class="card-details">
+              <i class="fas fa-map-marker-alt"></i> Cancún<br />
+              <i class="fas fa-ruler-combined"></i> Área: 5,800 m²<br />
+              <i class="fas fa-calendar-alt"></i> Año: 2022
+            </p>
+            <a href="#" class="btn-secondary">Ver más detalles</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Botón de WhatsApp -->
+    <div class="whatsapp-button" id="whatsapp-btn">
+      <a href="https://wa.me/528745436565?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20sus%20servicios%20de%20arquitectura" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-text">¿Necesitas ayuda?</span>
+      </a>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img
+              src="./imgs/tessitura.jpeg"
+              alt="Logo de Tessitura Arquitectos"
+              class="footer-logo-img"
+            />
+          </div>
+          <div class="footer-text">
+            <p>
+              &copy; 2025 Tessitura Arquitectos. Todos los derechos reservados.
+            </p>
+          </div>
+          <div class="footer-social">
+            <a href="#" class="social-link">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
